@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tech Journal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>My Tech Journal</h1>
+    <p>Log learnings, code snippets, ideas – update forever!</p>
+    
+    <section class="add-note">
+      <h2>Add New Entry</h2>
+      <input type="text" id="title-input" placeholder="Title (e.g. JS Events Basics)">
+      <textarea id="content-input" placeholder="Notes, code, thoughts..."></textarea>
+      <input type="text" id="tags-input" placeholder="Tags (e.g. js, events, beginner)">
+      <button id="add-button">Save Entry</button>
+    </section>
+
+    <section class="entries">
+      <h2>My Entries</h2>
+      <input type="text" id="search-input" placeholder="Search entries...">
+      <ul id="entry-list"></ul>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
