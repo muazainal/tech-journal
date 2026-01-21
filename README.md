@@ -3,7 +3,7 @@
 My personal, lifetime knowledge base for tech learnings.
 
 **What it is**  
-A simple web app to add, search, edit & delete notes/entries. Built as a learning project during my Code Institute full-stack bootcamp (finishing ~Feb 2026). Started with vanilla JavaScript + localStorage – plans to add Django backend, user auth, cloud hosting, and more over time.
+A simple web app to add, search, edit & delete notes/entries. Built as a learning project during my Code Institute full-stack bootcamp (finishing ~Mar 2026). Started with JavaScript + localStorage – plans to add Django backend, user auth, cloud hosting, and more over time.
 
 **Why this repo?**  
 - Reinforce what I learn by writing it down  
