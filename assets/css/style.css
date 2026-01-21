@@ -1,61 +1,83 @@
+/* General Styles */
 body { 
-font-family: Arial,sans-serif;
-background: #f4f4f4;
-padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 0;
 }
 
 .container { 
-max-width: 800px; 
-margin: auto; 
-background: white; 
-padding: 20px; 
-border-radius: 8px; 
-box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+  max-width: 800px; 
+  margin: auto; 
+  background: white; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
 }
 
 h1, h2 { 
-text-align: center; 
+  text-align: center; 
 }
 
+/* Input & Textarea */
 input, textarea { 
-width: 100%; 
-padding: 10px; 
-margin: 10px 0; 
-border: 1px solid #ddd; 
-border-radius: 4px; 
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  box-sizing: border-box;
 }
 
 textarea { 
-height: 150px; 
+  height: 150px; 
+  resize: vertical;
 }
 
+/* Buttons */
 button { 
-padding: 10px 20px; 
-background: #4CAF50; 
-color: white; 
-border: none; 
-cursor: pointer; 
-border-radius: 4px; 
+  padding: 10px 20px; 
+  background: #4CAF50; 
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+  border-radius: 4px; 
+  transition: background 0.3s;
 }
 
+button:hover {
+  background: #45a049;
+}
+
+/* Entries List */
 ul { 
-list-style: none; 
-padding: 0; 
+  list-style: none; 
+  padding: 0; 
 }
 
 li { 
-background: #fff; 
-margin: 10px 0; 
-padding: 15px; 
-border: 1px solid #ddd; 
-border-radius: 4px; 
+  background: #fff; 
+  margin: 10px 0; 
+  padding: 15px; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
 }
 
 li h3 { 
-margin: 0 0 10px; 
+  margin: 0 0 10px; 
 }
 
 .tags { 
-font-style: italic; 
-color: #666; 
+  font-style: italic; 
+  color: #666; 
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  background: #f44336;
+  margin-top: 5px;
+}
+
+.delete-button:hover {
+  background: #d32f2f;
 }
