@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { // DOM loaded - To make sure all HTML elements exist before JavaScript tries to access them.
   const titleInput = document.getElementById('title-input');
   const contentInput = document.getElementById('content-input');
   const tagsInput = document.getElementById('tags-input');
